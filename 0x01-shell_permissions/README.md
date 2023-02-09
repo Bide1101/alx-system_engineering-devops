@@ -2,3 +2,4 @@
 (1) This command 'id -un' is  used to print the  username of the current user.
 (2) This command 'id -Gn' prints all the groups the current user is part of.
 (3) The command 'chown' changes the owner of a file to another user.
+(4) This script 'touch' is used to create an empty file.
