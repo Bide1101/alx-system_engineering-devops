@@ -4,3 +4,4 @@
 (3) The command 'chown' changes the owner of a file to another user.
 (4) This script 'touch' is used to create an empty file.
 (5) This script 'chmod u+x' execute permission to the owner of the file.
+(6) This script 'chmod u+x,g+x,o+r  adds execute permission to the owner and the group owner, and read permission to other users, to the file. 
