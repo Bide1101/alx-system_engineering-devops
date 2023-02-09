@@ -7,3 +7,7 @@
 (6) This script 'chmod u+x,g+x,o+r  adds execute permission to the owner and the group owner, and read permission to other users, to the file.
 (7) This script 'chmod ugo+x' adds execution permission to the owner, the group owner and the other users, to the file hello.
 (8) This script 'chmod 007' allows other users all permissions and no permission for atall for owner and group.
+(9) This script 'chmod 753' sets the mode of the file "hello" to this : -rwxr-x-wx 1 julien julien 23 Sep 20 14:25 hello.
+(10) This 'chmod --reference==olleh hello' sets the mode of two files as same mode.
+(11) This 'chmod -R +X .' adds execute permission to all subdirectories of the current directory for the owner, the group owner and all other users. Regular files should not be changed.
+(12) This script 'mkdir -m 751 my_dir' creates a directory called my_dir with permissions 751 in the working directory.
