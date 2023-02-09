@@ -12,3 +12,5 @@
 (11) This 'chmod -R +X .' adds execute permission to all subdirectories of the current directory for the owner, the group owner and all other users. Regular files should not be changed.
 (12) This script 'mkdir -m 751 my_dir' creates a directory called my_dir with permissions 751 in the working directory.
 (13) This command 'chgrp' is used to change group owner.
+(14) This script 'chown vincent:staff* changes the owner to vincent and the group owner to staff for all the files and directories in the working directory.
+(15) This script 'chown -h vincent:staff_hello' changes the owner and the group owner of _hello to vincent and staff.
