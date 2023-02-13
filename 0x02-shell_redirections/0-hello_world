@@ -1,2 +1,2 @@
-echo '#!/bin/bash' > filename
-echo "Hello, World" >> filename
+#!/bin/bash
+echo "Hello, World" >>
