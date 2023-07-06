@@ -1,0 +1,20 @@
+#!/usr/bin/env bash
+#A bash script that loops from 1 - 20 and displays a text
+
+counter=1
+while [ $counter -lt 21 ]
+do
+	echo "$counter"
+	case $counter in
+	'4')
+		echo "bad luck from China"
+		;;
+	'9')
+		echo 'bad luck from Japan'
+		;;
+	'17')
+		echo 'bad luck from Italy'
+		;;
+		esac
+		(( counter++ ))
+done
