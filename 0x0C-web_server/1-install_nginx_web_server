@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+# This is used to install nginx
+
+sudo apt-get -y update
+sudo apt-get -y install nginx
+sudo ufw allow 'Nginx HTTP'
+
+# prints Hello World
+echo "Hello World!" > /var/www/html/some_page.html
+
+sudo service nginx start
