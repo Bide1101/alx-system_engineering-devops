@@ -1,8 +1,9 @@
 #!/usr/bin/env bash
-# This is used to install nginx
+# This is used to install nginx web server
 
 sudo apt-get -y update
 sudo apt-get -y install nginx
+
 sudo ufw allow 'Nginx HTTP'
 
 # prints Hello World
