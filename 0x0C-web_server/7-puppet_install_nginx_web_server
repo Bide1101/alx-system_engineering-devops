@@ -1,4 +1,4 @@
-#This script installs nginx using puppet.
+# This script installs nginx using puppet instead of bash
 
 package {'nginx':
   ensure => 'present',
